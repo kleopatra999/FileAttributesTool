@@ -7,10 +7,11 @@ For some other attributes it is very hard to set them using the Windows Explorer
 
 Using this command line tool you can set all the attributes to a file without any trouble.
 
-## Usage
+### Usage
 
 FileAttribTool.exe [get|set] [FileName] [AttribNum]
-[AttribNum]:" << std::endl;
+
+[AttribNum]:
 - 1:        FILE_ATTRIBUTE_READONLY             0x00000001
 - 2:        FILE_ATTRIBUTE_HIDDEN               0x00000002
 - 4:        FILE_ATTRIBUTE_SYSTEM               0x00000004
